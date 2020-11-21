@@ -1,22 +1,13 @@
-## Rename Bot 
+# cloud-shell-tutorials
 
-An Open Source Telegram Rename Bot
+[Google Cloud Shell](https://cloud.google.com/shell/docs/) is a hosted
+development environment managing resources hosted on Google Cloud Platform.
 
----
-👺 Rename any Telegram Files with Permanent Thumbnail Support
+This repository contains tutorials to help you make the most of Cloud Shell.
 
+You can find the online documentation
+[here](https://cloud.google.com/shell/docs/tutorials).
+Click the open in Cloud Shell button below to run a sample tutorial yourself.
 
-### Installation
-
-
-### You can tap the Deploy To Heroku button below to deploy straight to Heroku!
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/RenameBot-PermTB)
-
-For Queries and support, contact [prgofficial](https://telegram.dog/prgofficial)
-
-## Credits, and Thanks to Beloved Developers ;
-
-* [SpEcHlDe](https://telegram.dog/SpEcHlDe) 
-* [Dan Tès](https://telegram.dog/haskell) 
-* [Yoily](https://telegram.dog/YoilyL)
-* [Anand](https://telegram.dog/Anandpskerala)
+[![Open this project in Cloud
+Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/GoogleCloudPlatform/cloud-shell-tutorials.git&page=editor&tutorial=tutorial.md)
