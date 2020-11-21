@@ -34,7 +34,7 @@ from PIL import Image
 from database.database import *
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["rename"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["rn"]))
 async def rename_doc(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await bot.delete_messages(
@@ -43,10 +43,10 @@ async def rename_doc(bot, update):
             revoke=True
         )
         return
-    TRChatBase(update.from_user.id, update.text, "rename")
+    TRChatBase(update.from_user.id, update.text, "rn")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
-        if len(file_name) > 64:
+        if len(file_name) > 128:
             await update.reply_text(
                 Translation.IFLONG_FILE_NAME.format(
                     alimit="64",
