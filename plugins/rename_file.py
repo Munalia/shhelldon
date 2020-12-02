@@ -49,7 +49,7 @@ async def rename_doc(bot, update):
         if len(file_name) > 128:
             await update.reply_text(
                 Translation.IFLONG_FILE_NAME.format(
-                    alimit="64",
+                    alimit="127",
                     num=len(file_name)
                 )
             )
